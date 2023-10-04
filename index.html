@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-2 px-0 bg-light border-2 border-end">
+                <div class="d-flex flex-column align-items-stretch pt-2 text-white min-vh-100">
+                    <a href="/" class="d-flex align-items-center pb-2 mb-md-0 me-md-auto text-dark text-decoration-none px-2">
+                        <img class="me-3" src="img/hospital.png" width="60">
+                        <span class="fs-5 d-none d-sm-inline text-secondary border-start border-2 px-3">Klinik Berkah Bermanfaat</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start border-2 border-top border-bottom px-3" id="menu">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0 link-dark d-flex">
+                                <img class="me-1" src="img/dashboard.png" width="23" height="20">
+                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline fw-bold">Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle link-dark">
+                                <img class="me-1" src="img/archive.png">
+                                <i class="fs-4 bi-speedometer2"></i> <span class="d-none d-sm-inline fw-bold">Rawat Jalan</span> </a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline link-dark">Semua Status</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline link-dark">Reservasi</span></a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline link-dark">Registrasi</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle link-dark">
+                                <img class="me-1" src="img/new-folder.png">
+                                <i class="fs-4 bi-table"></i> <span class="d-none d-sm-inline fw-bold">Rekam Medis</span></a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle link-dark">
+                                <img class="" src="img/wallet.png" height="22">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline fw-bold">Pembayaran</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle link-dark">
+                                <img src="img/server.png" height="23">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline fw-bold">Master Data</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle link-dark">
+                                <img src="img/calendar.png" height="23">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline fw-bold">Jadwal Dokter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle link-dark">
+                                <img src="img/user.png" height="23">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline fw-bold">Pasien</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle link-dark">
+                                <img src="img/box.png" height="23">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline fw-bold">Inventori</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle link-dark">
+                                <img src="img/clipboard.png" height="23">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-sm-inline fw-bold">Closing & Laporan</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle link-dark">
+                                <img src="img/coding.png" width="24">
+                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline fw-bold">Integrasi</span> </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="dropdown px-3 pb-3 border-2 border-top">
+                        <a href="#" class="d-flex align-items-center text-dark text-decoration-none dropdown-toggle mt-3" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="img/profile.png" width="30" height="30" class="rounded-circle">
+                            <span class="d-none d-sm-inline mx-1">Febi Fadli</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                            <li><a class="dropdown-item" href="#">New project...</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-12 d-flex justify-content-between align-items-center">
+                        <div>
+                            <h5 class="">Rawat Jalan > Semua Status</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
